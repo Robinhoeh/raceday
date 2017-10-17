@@ -1,5 +1,7 @@
-import './index.css';
+let registeredEarly = true;
 
-document.getElementById('root').innerHTML = 'Hello World';
+let runnersAge = 18;
 
-alert('Hello World!');
+let raceNumber =  Math.floor( Math.random() * 1000 );
+
+!registeredEarly ? console.log(raceNumber += 1000) : return false;
